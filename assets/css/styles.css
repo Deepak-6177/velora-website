@@ -336,19 +336,20 @@ font-size: var(--big-font-size);
 
 /*=============== BUTTONS ===============*/
 .btn {
-  display: inline-block;
+  display: inline-flex; /* Use flexbox for proper alignment */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
   background-color: var(--first-color);
   border: 2px solid var(--first-color);
   color: var(--body-color);
-  padding: 1.75rem;
-  height: 49px;
-  line-height: 49px;
-  border-radius: .25rem;
+  padding: 0 1.75rem; /* Adjust horizontal padding */
+  height: 49px; /* Fixed height ensures vertical centering */
+  line-height: normal; /* Remove line-height dependency */
+  border-radius: 0.25rem;
   font-family: var(--second-font);
   font-size: var(--small-font-size);
   font-weight: var(--weight-700);
   transition: all 0.4s var(--transition);
-padding-top: 1rem;
 }
 
 .btn:hover {
