@@ -101,7 +101,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  width: 100px;
 }
 
 button,
@@ -219,10 +219,6 @@ table{
 height: calc(var(--header-height) + 2.5rem);
 justify-content: space-between;
 column-gap: 1rem;
-}
-
-.nav--logo-img {
-  width: 180px;
 }
 
 .nav--menu {
@@ -664,11 +660,11 @@ color: var(--body-color);
 }
 
 .deals--item:nth-child(1) {
-  background-image: url(../img/Rosabella\ couture.jpg);
+  background-image: url(../assests/img/crop_top.jpg);
 }
 
 .deals--item:nth-child(2) {
-  background-image: url(../img/crop\ top.jpg);
+  background-image: url(../assests/img/crop_top.jpg);
 }
 
 .deals--item {
@@ -1677,9 +1673,11 @@ border-radius: 0.5rem;
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
 .nav--logo-img {
-  width: 116px;
+  width: 100px;
 }
+
 .nav--menu {
   position: fixed;
   right: -100%;
